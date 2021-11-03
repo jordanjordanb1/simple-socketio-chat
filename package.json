@@ -1,0 +1,25 @@
+{
+  "name": "simple-socketio-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:app:dev": "cd app && yarn run dev",
+    "start:server:dev": "cd server && yarn run start:dev",
+    "start:dev": "concurrently \"yarn run start:app:dev\" \"yarn run start:server:dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanjordanb1/simple-socketio-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanjordanb1/simple-socketio-chat/issues"
+  },
+  "homepage": "https://github.com/jordanjordanb1/simple-socketio-chat#readme",
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
